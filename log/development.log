@@ -1,0 +1,102 @@
+
+
+Started GET "/" for ::1 at 2016-08-11 13:05:17 +0100
+[LocomotiveCMS] [fetch site] host = localhost / site_handle = nil / locale = :en
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | lmapp_dev.find | STARTED | {"find"=>"locomotive_sites", "filter"=>{"domains"=>{"$in"=>["localhost"]}}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | lmapp_dev.find | SUCCEEDED | 0.000973s
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | lmapp_dev.find | STARTED | {"find"=>"locomotive_sites", "filter"=>{"domains"=>{"$in"=>["localhost"]}}}
+MONGODB | localhost:27017 | lmapp_dev.find | SUCCEEDED | 0.000604s
+MONGODB | localhost:27017 | lmapp_dev.count | STARTED | {"count"=>"locomotive_accounts", "query"=>{}}
+MONGODB | localhost:27017 | lmapp_dev.count | SUCCEEDED | 0.000181s
+
+
+Started GET "/locomotive/sign_up" for ::1 at 2016-08-11 13:05:17 +0100
+[LocomotiveCMS] [fetch site] host = localhost / site_handle = "sign_up" / locale = :en
+MONGODB | localhost:27017 | lmapp_dev.find | STARTED | {"find"=>"locomotive_sites", "filter"=>{"handle"=>"sign_up"}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | lmapp_dev.find | SUCCEEDED | 0.000343s
+Processing by Locomotive::RegistrationsController#new as HTML
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/locomotivecms-3.1.1/app/views/locomotive/registrations/new.html.slim within locomotive/layouts/account (1786.1ms)
+Completed 200 OK in 3630ms (Views: 3625.8ms)
+
+
+Started GET "/assets/jquery-ui/effect-fade.self-42d542a5253e0a610717460102ee6bee339c656cc188e491d89eb0779043c963.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/jquery-ui.self-52111578aa54225c9ebfe06f78a62771020ee548bb27d62228ee3f5e6633969d.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/nprogress-ajax.self-90cb63ce71bcdaa65a99aca799a47e3926c0909de910d4f11d50ca4e9fd30d32.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/cmd.self-b2a50a7a3e816856a0ec7188014ceac3e78015d1e27cd559de909d8674cae262.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/vendor.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/account.self-0415edfd6960046a3e07a839b6cd7d3623e5d5e91158d01c7300e3260821a989.css?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/application.self-d283e47ced6ab7a9c18b969a311c0118591e00a827c6298489ec2bc96f2dae32.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/utils/notify.self-647ec994a28ed57597c45c0a31ecd6aaad7d8e8df06ccc96d5cb0b066d0b6834.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/utils/layout_utils.self-1a595e3101c0626e9f2b6986b055a534025cb0c60550cb657acc30de1e5d3f01.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/utils/nprogress.self-9a1df7c0abb2ceac6c24b070511d8e747bc330482940bdc02d7da26d38617c3e.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/accounts/new_view.self-c4128f68b9d306599d1881ad15fab65eb8c2a1d40352eea01140a32e686c6948.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/content_entries/edit_view.self-60e61846c4396ddfdf04afe58651b70d81a7fc924188bdffe45f9380342117fc.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/content_entries/new_view.self-65d2a65e32127fab901dba3526339d3fa3d9f4df9b36c0f93e93af99205d80c0.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/current_site_metafields/index_view.self-319fb4a9566e1b47d3369858782dcd6cc3e815631d257bcc308f02d104730708.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/developers_documentation/show_view.self-fa5ed21bfaadf97e3901b85addf12ce541663b47522004b5c5d86205be414adf.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/memberships/edit_view.self-f35c3de73f8a6ac53129eb59cb6585dd89c913b64b1431d8ec7c512b97571886.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/memberships/new_view.self-51b4e6f6f658bec221906e36dd056ec21852698f5e9e59a2bb44bbc5b51b14dc.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/pages/edit_view.self-eb1f459dbdd7c30f682944a19c2d8bd9b8e9f7cee80a29a64f801d004a32f246.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/pages/new_view.self-f6417be0fbd24b37f8fbc8db994d84d01a5169e8ec7aa980b9a9e2269893fcd9.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/public_submission_accounts/edit_view.self-3df88f19db2007196ae100351ad1d35cfacfce1c5084379593258f21561dd0b7.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/registrations/new_view.self-b1730e7141410d150a07b9c4dd3dfa872110dfda0984ae6c6708f7508b54ec0a.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/shared/header_view.self-e35d054a3f31b3b140c5226917a1823bf439cdbf7626c7c008bfc76f92d9ca03.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/sites/new_view.self-9f63f8c85a7a0ad55308c9ebb6d7bde93e115c85a7e44023e7fce6f9243db7c1.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/views/translations/index_view.self-761caef8dd3e6b2e36d3544f3a9f8e1dd547169aba6362f24f30818f0ca28b6b.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive.self-d6917dbff0fdc71a9898a945962fdada8dc85d0e8a767dc23dac07a99475efd5.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100
+
+
+Started GET "/assets/locomotive/utils/backbone_patches.self-708787620c956f7bae0ee0faf9a31370de75352e4b288cd9a23a5ad3c063035e.js?body=1" for ::1 at 2016-08-11 13:05:21 +0100

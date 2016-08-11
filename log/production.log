@@ -1,0 +1,436 @@
+W, [2016-08-11T14:37:18.843889 #75154]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableFile.page.
+W, [2016-08-11T14:37:18.847987 #75154]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableText.page.
+W, [2016-08-11T14:37:18.848079 #75154]  WARN -- : Overwriting existing field content in class Locomotive::EditableText.
+W, [2016-08-11T14:37:18.849835 #75154]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableControl.page.
+W, [2016-08-11T14:37:18.849919 #75154]  WARN -- : Overwriting existing field content in class Locomotive::EditableControl.
+W, [2016-08-11T14:37:19.124247 #75154]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableLongText.page.
+W, [2016-08-11T14:37:19.124950 #75154]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableModel.page.
+W, [2016-08-11T14:37:19.125573 #75154]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableShortText.page.
+W, [2016-08-11T14:37:19.152037 #75154]  WARN -- : Overwriting existing field depth in class Locomotive::Page.
+W, [2016-08-11T14:37:19.155570 #75154]  WARN -- : Creating scope :root. Overwriting existing method Locomotive::Page.root.
+W, [2016-08-11T14:38:57.459538 #75222]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableFile.page.
+W, [2016-08-11T14:38:57.462460 #75222]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableText.page.
+W, [2016-08-11T14:38:57.462517 #75222]  WARN -- : Overwriting existing field content in class Locomotive::EditableText.
+W, [2016-08-11T14:38:57.463693 #75222]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableControl.page.
+W, [2016-08-11T14:38:57.463765 #75222]  WARN -- : Overwriting existing field content in class Locomotive::EditableControl.
+W, [2016-08-11T14:38:57.688007 #75222]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableLongText.page.
+W, [2016-08-11T14:38:57.688559 #75222]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableModel.page.
+W, [2016-08-11T14:38:57.689351 #75222]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableShortText.page.
+W, [2016-08-11T14:38:57.703194 #75222]  WARN -- : Overwriting existing field depth in class Locomotive::Page.
+W, [2016-08-11T14:38:57.706409 #75222]  WARN -- : Creating scope :root. Overwriting existing method Locomotive::Page.root.
+W, [2016-08-11T14:43:22.388075 #75388]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableFile.page.
+W, [2016-08-11T14:43:22.391023 #75388]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableText.page.
+W, [2016-08-11T14:43:22.391083 #75388]  WARN -- : Overwriting existing field content in class Locomotive::EditableText.
+W, [2016-08-11T14:43:22.392227 #75388]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableControl.page.
+W, [2016-08-11T14:43:22.392309 #75388]  WARN -- : Overwriting existing field content in class Locomotive::EditableControl.
+W, [2016-08-11T14:43:22.615794 #75388]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableLongText.page.
+W, [2016-08-11T14:43:22.616227 #75388]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableModel.page.
+W, [2016-08-11T14:43:22.616601 #75388]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableShortText.page.
+W, [2016-08-11T14:43:22.626323 #75388]  WARN -- : Overwriting existing field depth in class Locomotive::Page.
+W, [2016-08-11T14:43:22.629538 #75388]  WARN -- : Creating scope :root. Overwriting existing method Locomotive::Page.root.
+I, [2016-08-11T14:43:25.725322 #75388]  INFO -- : Started GET "/" for ::1 at 2016-08-11 14:43:25 +0100
+I, [2016-08-11T14:43:25.725572 #75388]  INFO -- : [LocomotiveCMS] [fetch site] host = localhost / site_handle = nil / locale = :en
+F, [2016-08-11T14:43:25.727585 #75388] FATAL -- : 
+NoMethodError (undefined method `each' for nil:NilClass):
+  mongo (2.2.7) lib/mongo/cluster.rb:115:in `initialize'
+  mongo (2.2.7) lib/mongo/client.rb:337:in `new'
+  mongo (2.2.7) lib/mongo/client.rb:337:in `create_from_addresses'
+  mongo (2.2.7) lib/mongo/client.rb:202:in `initialize'
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:64:in `new'
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:64:in `create_client'
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:27:in `create'
+  mongoid (5.1.3) lib/mongoid/clients.rb:66:in `with_name'
+  mongoid (5.1.3) lib/mongoid/clients.rb:115:in `mongo_client'
+  mongoid (5.1.3) lib/mongoid/clients.rb:135:in `collection'
+  mongoid (5.1.3) lib/mongoid/clients/options.rb:283:in `method_missing'
+  mongoid (5.1.3) lib/mongoid/contextual/mongo.rb:313:in `initialize'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `new'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `create_context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:35:in `context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:20:in `first'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:87:in `fetch_from_host'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:45:in `fetch_site'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:19:in `call'
+  dragonfly (1.0.12) lib/dragonfly/middleware.rb:14:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/image_thumbnail.rb:23:in `call'
+  dragonfly (1.0.12) lib/dragonfly/cookie_monster.rb:9:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+I, [2016-08-11T14:43:26.268369 #75388]  INFO -- : Started GET "/favicon.ico" for ::1 at 2016-08-11 14:43:26 +0100
+I, [2016-08-11T14:43:26.268603 #75388]  INFO -- : [LocomotiveCMS] [fetch site] host = localhost / site_handle = nil / locale = :en
+F, [2016-08-11T14:43:26.270399 #75388] FATAL -- : 
+NoMethodError (undefined method `each' for nil:NilClass):
+  mongo (2.2.7) lib/mongo/cluster.rb:115:in `initialize'
+  mongo (2.2.7) lib/mongo/client.rb:337:in `new'
+  mongo (2.2.7) lib/mongo/client.rb:337:in `create_from_addresses'
+  mongo (2.2.7) lib/mongo/client.rb:202:in `initialize'
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:64:in `new'
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:64:in `create_client'
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:27:in `create'
+  mongoid (5.1.3) lib/mongoid/clients.rb:66:in `with_name'
+  mongoid (5.1.3) lib/mongoid/clients.rb:115:in `mongo_client'
+  mongoid (5.1.3) lib/mongoid/clients.rb:135:in `collection'
+  mongoid (5.1.3) lib/mongoid/clients/options.rb:283:in `method_missing'
+  mongoid (5.1.3) lib/mongoid/contextual/mongo.rb:313:in `initialize'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `new'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `create_context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:35:in `context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:20:in `first'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:87:in `fetch_from_host'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:45:in `fetch_site'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:19:in `call'
+  dragonfly (1.0.12) lib/dragonfly/middleware.rb:14:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/image_thumbnail.rb:23:in `call'
+  dragonfly (1.0.12) lib/dragonfly/cookie_monster.rb:9:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+W, [2016-08-11T14:47:53.808307 #75550]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableFile.page.
+W, [2016-08-11T14:47:53.810902 #75550]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableText.page.
+W, [2016-08-11T14:47:53.810959 #75550]  WARN -- : Overwriting existing field content in class Locomotive::EditableText.
+W, [2016-08-11T14:47:53.812014 #75550]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableControl.page.
+W, [2016-08-11T14:47:53.812064 #75550]  WARN -- : Overwriting existing field content in class Locomotive::EditableControl.
+W, [2016-08-11T14:47:54.040791 #75550]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableLongText.page.
+W, [2016-08-11T14:47:54.041285 #75550]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableModel.page.
+W, [2016-08-11T14:47:54.041712 #75550]  WARN -- : Creating scope :page. Overwriting existing method Locomotive::EditableShortText.page.
+W, [2016-08-11T14:47:54.051270 #75550]  WARN -- : Overwriting existing field depth in class Locomotive::Page.
+W, [2016-08-11T14:47:54.054372 #75550]  WARN -- : Creating scope :root. Overwriting existing method Locomotive::Page.root.
+I, [2016-08-11T14:47:57.104657 #75550]  INFO -- : Started GET "/" for ::1 at 2016-08-11 14:47:57 +0100
+I, [2016-08-11T14:47:57.104980 #75550]  INFO -- : [LocomotiveCMS] [fetch site] host = localhost / site_handle = nil / locale = :en
+F, [2016-08-11T14:47:57.686483 #75550] FATAL -- : 
+Mongoid::Errors::NoClientConfig (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:26:in `create'
+  mongoid (5.1.3) lib/mongoid/clients.rb:66:in `with_name'
+  mongoid (5.1.3) lib/mongoid/clients.rb:115:in `mongo_client'
+  mongoid (5.1.3) lib/mongoid/clients.rb:135:in `collection'
+  mongoid (5.1.3) lib/mongoid/clients/options.rb:283:in `method_missing'
+  mongoid (5.1.3) lib/mongoid/contextual/mongo.rb:313:in `initialize'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `new'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `create_context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:35:in `context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:20:in `first'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:87:in `fetch_from_host'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:45:in `fetch_site'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:19:in `call'
+  dragonfly (1.0.12) lib/dragonfly/middleware.rb:14:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/image_thumbnail.rb:23:in `call'
+  dragonfly (1.0.12) lib/dragonfly/cookie_monster.rb:9:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+I, [2016-08-11T14:47:58.208568 #75550]  INFO -- : Started GET "/favicon.ico" for ::1 at 2016-08-11 14:47:58 +0100
+I, [2016-08-11T14:47:58.208772 #75550]  INFO -- : [LocomotiveCMS] [fetch site] host = localhost / site_handle = nil / locale = :en
+F, [2016-08-11T14:47:58.209796 #75550] FATAL -- : 
+Mongoid::Errors::NoClientConfig (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:26:in `create'
+  mongoid (5.1.3) lib/mongoid/clients.rb:66:in `with_name'
+  mongoid (5.1.3) lib/mongoid/clients.rb:115:in `mongo_client'
+  mongoid (5.1.3) lib/mongoid/clients.rb:135:in `collection'
+  mongoid (5.1.3) lib/mongoid/clients/options.rb:283:in `method_missing'
+  mongoid (5.1.3) lib/mongoid/contextual/mongo.rb:313:in `initialize'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `new'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `create_context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:35:in `context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:20:in `first'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:87:in `fetch_from_host'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:45:in `fetch_site'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:19:in `call'
+  dragonfly (1.0.12) lib/dragonfly/middleware.rb:14:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/image_thumbnail.rb:23:in `call'
+  dragonfly (1.0.12) lib/dragonfly/cookie_monster.rb:9:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+I, [2016-08-11T14:48:00.756011 #75550]  INFO -- : Started GET "/" for ::1 at 2016-08-11 14:48:00 +0100
+I, [2016-08-11T14:48:00.756183 #75550]  INFO -- : [LocomotiveCMS] [fetch site] host = localhost / site_handle = nil / locale = :en
+F, [2016-08-11T14:48:00.757350 #75550] FATAL -- : 
+Mongoid::Errors::NoClientConfig (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:26:in `create'
+  mongoid (5.1.3) lib/mongoid/clients.rb:66:in `with_name'
+  mongoid (5.1.3) lib/mongoid/clients.rb:115:in `mongo_client'
+  mongoid (5.1.3) lib/mongoid/clients.rb:135:in `collection'
+  mongoid (5.1.3) lib/mongoid/clients/options.rb:283:in `method_missing'
+  mongoid (5.1.3) lib/mongoid/contextual/mongo.rb:313:in `initialize'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `new'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `create_context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:35:in `context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:20:in `first'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:87:in `fetch_from_host'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:45:in `fetch_site'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:19:in `call'
+  dragonfly (1.0.12) lib/dragonfly/middleware.rb:14:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/image_thumbnail.rb:23:in `call'
+  dragonfly (1.0.12) lib/dragonfly/cookie_monster.rb:9:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+I, [2016-08-11T14:48:00.992450 #75550]  INFO -- : Started GET "/favicon.ico" for ::1 at 2016-08-11 14:48:00 +0100
+I, [2016-08-11T14:48:00.992601 #75550]  INFO -- : [LocomotiveCMS] [fetch site] host = localhost / site_handle = nil / locale = :en
+F, [2016-08-11T14:48:00.993620 #75550] FATAL -- : 
+Mongoid::Errors::NoClientConfig (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+  mongoid (5.1.3) lib/mongoid/clients/factory.rb:26:in `create'
+  mongoid (5.1.3) lib/mongoid/clients.rb:66:in `with_name'
+  mongoid (5.1.3) lib/mongoid/clients.rb:115:in `mongo_client'
+  mongoid (5.1.3) lib/mongoid/clients.rb:135:in `collection'
+  mongoid (5.1.3) lib/mongoid/clients/options.rb:283:in `method_missing'
+  mongoid (5.1.3) lib/mongoid/contextual/mongo.rb:313:in `initialize'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `new'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:53:in `create_context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:35:in `context'
+  mongoid (5.1.3) lib/mongoid/contextual.rb:20:in `first'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:87:in `fetch_from_host'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:45:in `fetch_site'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/site.rb:19:in `call'
+  dragonfly (1.0.12) lib/dragonfly/middleware.rb:14:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  locomotivecms (3.1.1) lib/locomotive/middlewares/image_thumbnail.rb:23:in `call'
+  dragonfly (1.0.12) lib/dragonfly/cookie_monster.rb:9:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
