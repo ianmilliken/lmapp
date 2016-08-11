@@ -292,6 +292,7 @@ GEM
     nokogumbo (1.4.9)
       nokogiri
     nprogress-rails (0.1.6.8)
+    oj (2.12.14)
     origin (2.2.0)
     orm_adapter (0.5.0)
     platform-api (0.3.0)
@@ -346,6 +347,8 @@ GEM
       json (~> 1.4)
     responders (2.1.2)
       railties (>= 4.2.0, < 5.1)
+    rollbar (2.9.1)
+      multi_json
     sanitize (4.0.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.4.4)
@@ -414,9 +417,11 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   locomotivecms (~> 3.1.1)
+  oj (~> 2.12.14)
   platform-api (~> 0.3.0)
   puma
   rails (= 4.2.7)
+  rollbar
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring

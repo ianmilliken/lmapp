@@ -27,6 +27,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'locomotivecms', '~> 3.1.1'
 
+# Add Rollbar
+gem 'rollbar'
+# Add Oj for JSON serialization (unless using JRuby)
+gem 'oj', '~> 2.12.14'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
