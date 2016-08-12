@@ -92,13 +92,13 @@ test:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] || ENV['MONGOHQ_URL'] %>
+      uri: <%= ENV['MONGOLAB_URI'] || ENV['MONGOHQ_URL'] || ENV['MONGODB_URI'] %>
       options:
         # consistency: :strong
         # identity_map_enabled: true
   clients:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] || ENV['MONGOHQ_URL'] %>
+      uri: <%= ENV['MONGOLAB_URI'] || ENV['MONGOHQ_URL'] || ENV['MONGODB_URI'] %>
       options:
         # consistency: :strong
         # identity_map_enabled: true
