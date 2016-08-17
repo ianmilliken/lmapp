@@ -4,11 +4,11 @@ CarrierWave.configure do |config|
 
   case Rails.env.to_sym
 
-  when :development
+  when :development, :production
     config.storage = :file
     config.root = File.join(Rails.root, 'public')
 
-  when :production
+  when :productionx
     # WARNING: add the "carrierwave-aws" gem in your Rails app Gemfile.
     # More information here: https://github.com/sorentwo/carrierwave-aws
 
