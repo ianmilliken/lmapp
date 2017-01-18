@@ -70,3 +70,6 @@ Thumbs.db
 
 # Ignore precompiled assets
 /public/assets/
+
+* Ignore public sites
+/public/sites/
